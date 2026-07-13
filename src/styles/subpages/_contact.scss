@@ -1,0 +1,9 @@
+.subpage--contact {
+  b {
+    color: lighten($ghost-orange, 20%);
+  }
+
+  &__awesome {
+    @extend %animate-rainbow;
+  }
+}

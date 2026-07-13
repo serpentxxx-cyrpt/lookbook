@@ -1,0 +1,3784 @@
+{
+  "width": 28,
+  "height": 31,
+  "cells": [
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "power",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "power",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal",
+      "color": 16759006,
+      "allowedDirection": "up"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal",
+      "color": 16759006,
+      "allowedDirection": "up"
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "vertical"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "vertical"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "vertical"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "thickness": 5,
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "blocked"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "never",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "power",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "power",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerTopRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "empty",
+      "dot": "dot",
+      "taken": false
+    },
+    {
+      "type": "wall",
+      "wallType": "vertical"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomLeft"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "horizontal"
+    },
+    {
+      "type": "wall",
+      "wallType": "cornerBottomRight"
+    }
+  ]
+}

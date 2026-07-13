@@ -1,0 +1,61 @@
+<body style="visibility: hidden">
+  <main class="grid">
+    <header class="header">
+      <h1>TRIDIBESH SEN - PORTFOLIO</h1>
+      <a href="#" id="employer-link" style="display: none;" tabindex="-1"></a>
+    </header>
+    <div id="platformer-menu" class="platformer-menu">
+      <canvas id="entity-canvas"></canvas>
+      <div class="controls-row">
+        <button id="move-left-btn" class="control-btn" aria-label="Move Left">&#9664;</button>
+        <input type="range" id="menu-slider" min="0" max="1000" value="0" />
+        <button id="move-right-btn" class="control-btn" aria-label="Move Right">&#9654;</button>
+        <button id="jump-btn" class="control-btn jump-btn" aria-label="Jump">&#9650; JUMP</button>
+      </div>
+      <div id="pixel-bubble" class="pixel-bubble" style="display:none">
+        <span id="bubble-text"></span>
+        <button id="bubble-open-btn">[ OPEN ]</button>
+      </div>
+    </div>
+    <div class="content">
+      <div class="canvas-wrapper" id="canvas-app"></div>
+    </div>
+  </main>
+  <a
+    href="#"
+    tabindex="0"
+    class="button floating-menu__toggle-button"
+    id="menu-toggle-button"
+    aria-label="Toggle navigation menu"
+  >
+    <span class="floating-menu__toggle-button__expand">&gt;</span>
+    <span class="floating-menu__toggle-button__collapse">&lt;</span>
+  </a>
+  <nav class="menu floating-menu" id="floating-menu">
+    <div class="floating-menu__items">
+      <a tabindex="-1" href="/about" class="red">About</a>
+      <a tabindex="-1" href="/portfolio" class="pink">Portfolio</a>
+      <a tabindex="-1" href="/contact" class="orange">Contact</a>
+      <a tabindex="-1" href="/resume" class="aqua">CV</a>
+    </div>
+  </nav>
+  <div id="transition-element" class="transition-element-wrapper">
+    <div class="transition-element">
+      <svg version="1.1" viewBox="0 0 14.817 16.933">
+        <g transform="translate(-160.65 -46.987)">
+          <path
+            id="transition-element-path"
+            d="m160.65 53.337v9.525h1.0583v1.0583h2.1167v-1.0583h1.0583v-1.0583h1.0583v1.0583h1.0583v1.0583h2.1167v-1.0583h1.0583v-1.0583h1.0583v1.0583h1.0583v1.0583h2.1167v-1.0583h1.0583v-9.525h-1.0583v-3.175h-1.0583v-1.0583h-1.0583v-1.0583h-2.1167v-1.0583h-4.2333v1.0583h-2.1167v1.0583h-1.0583v1.0583h-1.0583v3.175z"
+          ></path>
+        </g>
+      </svg>
+    </div>
+  </div>
+  <div class="subpages" id="content-wrapper">
+    <slot />
+  </div>
+  <script>
+    import '../main';
+    import '../platformerMenu';
+  </script>
+</body>

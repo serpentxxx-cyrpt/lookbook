@@ -1,0 +1,139 @@
+@mixin create-floating-link-skin($selector, $color) {
+  &.#{'' + $selector} {
+    @extend .link-button;
+    color: $color;
+    background-color: hsl(0, 0%, 0%);
+    transition: all 300ms ease;
+
+    &:focus,
+    &:active,
+    &:hover {
+      color: #ffffff;
+      background-color: darken($color, 20%);
+    }
+  }
+}
+
+@mixin create-inline-link-skin($selector, $color) {
+  &.#{'' + $selector} {
+    color: $color;
+    border-bottom: 2px solid transparent;
+
+    &:focus,
+    &:active,
+    &:hover {
+      color: darken($color, 5%);
+      border-bottom: 2px solid darken($color, 5%);
+    }
+  }
+}
+
+.floating-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  width: 100%;
+  height: 100%;
+  display: none;
+  opacity: 0;
+  transition: opacity 300ms ease;
+
+  &--visible-start {
+    display: block;
+    opacity: 0;
+  }
+
+  &--visible {
+    display: block;
+    opacity: 1;
+    transition: opacity 300ms ease;
+  }
+
+  @include media-responsive() {
+    display: none;
+  }
+
+  &__toggle-button {
+    @extend .link-button;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    padding: 1rem;
+    z-index: 7;
+    display: none;
+
+    body.has-menu-toggle & {
+      display: block;
+
+      @include media-responsive() {
+        display: none;
+      }
+    }
+
+    &__collapse {
+      display: none;
+    }
+
+    &--expanded & {
+      &__expand {
+        display: none;
+      }
+
+      &__collapse {
+        display: block;
+      }
+    }
+  }
+
+  &__items {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+
+      @include create-floating-link-skin(red, $ghost-red);
+      @include create-floating-link-skin(aqua, $ghost-blue);
+      @include create-floating-link-skin(pink, $ghost-pink);
+      @include create-floating-link-skin(orange, $ghost-orange);
+    }
+  }
+}
+
+.inline-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  padding: 0.2rem 1.5rem;
+  margin-top: 1vh;
+
+  @include media-responsive() {
+    display: flex;
+  }
+
+  a {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color 300ms ease;
+    position: relative;
+    font-size: 0.9rem;
+
+    @include create-inline-link-skin(red, $ghost-red);
+    @include create-inline-link-skin(aqua, $ghost-blue);
+    @include create-inline-link-skin(pink, $ghost-pink);
+    @include create-inline-link-skin(orange, $ghost-orange);
+  }
+
+  &__separator {
+    display: none;
+  }
+}

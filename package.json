@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-pacman",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@vue/reactivity": "3.2.33",
+    "navigo": "8.11.1",
+    "pixi.js": "6.3.0",
+    "swiped-events": "^1.2.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.6",
+    "astro": "^5.16.6",
+    "prettier": "2.6.2",
+    "sass": "1.50.1",
+    "typescript": "^5.9.3"
+  }
+}

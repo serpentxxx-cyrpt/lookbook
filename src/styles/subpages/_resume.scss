@@ -1,0 +1,140 @@
+.subpage--resume {
+  b {
+    color: lighten($ghost-blue, 35%);
+  }
+
+  .subpage__content-wrapper {
+    padding-top: 0;
+  }
+
+  .subpage__content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  .cv-header {
+    text-align: center;
+    border-bottom: 4px double #2121de;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+
+    h1 {
+      font-size: 1.6rem;
+      color: #ffff00;
+      margin-bottom: 0.5rem;
+      text-shadow: 2px 2px 0px #000;
+    }
+
+    .cv-subtitle {
+      font-size: 0.9rem;
+      color: #00ffde;
+      margin-bottom: 1rem;
+    }
+
+    .cv-meta {
+      font-size: 0.7rem;
+      line-height: 1.6;
+      color: #ffb8de;
+
+      a {
+        color: #ffb8de;
+        border-bottom: 1px solid #ffb8de;
+        &:hover {
+          border-bottom-color: transparent;
+        }
+      }
+    }
+  }
+
+  .cv-section {
+    margin-bottom: 2.5rem;
+
+    h3 {
+      font-size: 1rem;
+      color: #ff0000;
+      border-bottom: 2px solid #2121de;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.2rem;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 0.75rem;
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .cv-item {
+    margin-bottom: 1.8rem;
+  }
+
+  .cv-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.4rem;
+
+    .cv-company {
+      font-size: 0.85rem;
+      color: #00ffde;
+      margin: 0;
+    }
+
+    .cv-school {
+      font-size: 0.8rem;
+      color: #00ffde;
+      margin: 0;
+    }
+
+    .cv-duration {
+      font-size: 0.7rem;
+      color: #ffcc44;
+    }
+  }
+
+  .cv-role {
+    font-size: 0.75rem;
+    color: #ffb8de;
+    margin-bottom: 0.6rem;
+    font-weight: bold;
+  }
+
+  ul {
+    padding-left: 20px;
+    margin-bottom: 1rem;
+
+    li {
+      font-size: 0.7rem;
+      line-height: 1.8;
+      margin-bottom: 0.6rem;
+
+      &::before {
+        left: -20px;
+        top: 4px;
+        width: 10px;
+        height: 10px;
+      }
+    }
+  }
+
+  .cv-skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .cv-skill-pill {
+    font-size: 0.65rem;
+    background: #0c0c28;
+    color: #ffff00;
+    border: 1px solid #2121de;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    text-shadow: 1px 1px 0px #000;
+  }
+}

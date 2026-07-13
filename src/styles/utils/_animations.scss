@@ -1,0 +1,49 @@
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+%animate-blink {
+  animation: blink 2s infinite;
+  animation-timing-function: steps(1, start);
+}
+
+@keyframes rainbow {
+  0% { color: #ff0000; }
+  14% { color: #ffa500; }
+  28% { color: #ffff00; }
+  42% { color: #008000; }
+  56% { color: #0000ff; }
+  70% { color: #4b0082; }
+  84% { color: #ee82ee; }
+  100% { color: #ff0000; }
+}
+
+@mixin animate-rainbow-selector($selector, $depth) {
+  $next-selector: "#{$selector} + span";
+
+  #{$next-selector} {
+    animation-delay: #{1400 - 200 * $depth}ms;
+  }
+
+  @if $depth > 0 {
+    @include animate-rainbow-selector($next-selector, $depth - 1);
+  }
+}
+
+%animate-rainbow {
+  span {
+    animation: rainbow 2s infinite;
+    animation-timing-function: linear;
+    color: #000000;
+  }
+
+  @include animate-rainbow-selector(span, 6);
+}

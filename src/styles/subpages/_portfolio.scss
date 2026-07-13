@@ -1,0 +1,79 @@
+.subpage--portfolio {
+  b {
+    color: lighten($ghost-pink, 2.5%);
+  }
+
+  &__logos-map-wrapper {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  &__logos-map {
+    max-width: 100%;
+  }
+
+  &__gallery-item {
+    margin-bottom: 3.5rem;
+  }
+
+  &__gallery-item-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+    @include media-responsive() {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 3rem;
+    }
+  }
+
+  &__gallery-item-image {
+    @include media-responsive() {
+      flex: 0 0 25%;
+    }
+
+    img {
+      width: 100%;
+      max-height: 20rem;
+      border: 3px solid #f9b9de;
+      box-shadow: 7px 7px 0 #f9b9de70;
+
+      @include media-responsive() {
+        width: 100%;
+        max-height: none;
+        height: auto;
+      }
+    }
+  }
+
+  &__gallery-item-description {
+    flex: 1;
+  }
+
+  &__gallery-item-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2em;
+  }
+
+  &__gallery-item-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  &__gallery-item-pill {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    background-color: $ghost-pink;
+    color: #000000;
+  }
+
+  &__gallery-item-links {
+    line-height: 1.75rem;
+  }
+}
