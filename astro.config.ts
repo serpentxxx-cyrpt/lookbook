@@ -2,6 +2,8 @@ import { defineConfig } from 'astro/config';
 import path from 'node:path';
 
 export default defineConfig({
+  site: 'https://serpentxxx-cyrpt.github.io',
+  base: '/lookbook',
   srcDir: 'src',
   outDir: 'dist',
   output: 'static',
