@@ -1,0 +1,223 @@
+/* ─────────────────────────────────────────────────────────
+   Tutorial / How-To-Play Instructions Popup
+   ───────────────────────────────────────────────────────── */
+
+.instructions-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.82);
+  z-index: 10001; // on top of preloader
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  opacity: 1;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+
+  &.fade-out {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
+.instructions-content {
+  position: relative;
+  background-color: #000;
+  border: 6px double #ffff00; // neon yellow double border
+  padding: 2.2rem 1.8rem;
+  max-width: 440px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(255, 255, 0, 0.25);
+  box-sizing: border-box;
+}
+
+.instructions-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: none;
+  border: none;
+  color: #ff0000;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.instructions-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.1rem;
+  color: #ffff00;
+  margin-top: 0;
+  margin-bottom: 1.6rem;
+  text-shadow: 2px 2px 0 #000;
+  letter-spacing: 1px;
+}
+
+.instructions-body {
+  text-align: left;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.62rem;
+  line-height: 1.8;
+  color: #fff;
+  margin-bottom: 1.8rem;
+
+  p {
+    margin-bottom: 1.2rem;
+    margin-top: 0;
+    
+    b {
+      color: #00ffde; // cyan highlights
+    }
+  }
+}
+
+.instructions-start-btn {
+  background: #000;
+  border: 2px solid #00ffde;
+  color: #00ffde;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.75rem;
+  padding: 0.6rem 1.4rem;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 #008877;
+  transition: transform 60ms, box-shadow 60ms;
+
+  &:hover {
+    background: #0d0d2b;
+    color: #fff;
+    border-color: #fff;
+  }
+
+  &:active {
+    transform: translate(1px, 1px);
+    box-shadow: 2px 2px 0 #008877;
+  }
+}
+
+/* ── Floating Controls Panel (Key Target & Audio Mute Toggle) ── */
+.controls-toggle-container {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.85);
+  border: 3px double #2121de;
+  padding: 6px 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 0 10px rgba(33, 33, 222, 0.3);
+  font-family: 'Press Start 2P', cursive;
+  box-sizing: border-box;
+
+  @media (max-width: 768px) {
+    position: relative;
+    right: auto;
+    top: auto;
+    margin: 4px auto;
+    width: fit-content;
+    justify-content: center;
+  }
+}
+
+.toggle-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+
+  &.sound-section {
+    border-left: 1px dashed #444;
+    padding-left: 8px;
+    margin-left: 0;
+  }
+}
+
+.controls-toggle-label {
+  font-size: 0.38rem;
+  color: #ffff00;
+  letter-spacing: 0.3px;
+  text-align: center;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.controls-toggle-buttons {
+  display: flex;
+  gap: 3px;
+}
+
+.toggle-btn {
+  background: #000;
+  border: 1px solid #555;
+  color: #888;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.38rem;
+  padding: 3px 6px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  line-height: 1.2;
+
+  &:hover {
+    border-color: #00ffde;
+    color: #fff;
+  }
+
+  &.active {
+    border-color: #00ffde;
+    color: #00ffde;
+    background: #002233;
+    box-shadow: inset 0 0 4px rgba(0, 255, 222, 0.4);
+  }
+}
+
+/* ── Maze Pause Overlay ── */
+.maze-pause-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.pause-symbol {
+  font-size: 3rem;
+  color: #00ffde;
+  text-shadow: 0 0 15px rgba(0, 255, 222, 0.6);
+  letter-spacing: 6px;
+  margin-bottom: 0.6rem;
+  animation: pause-pulse 1.5s ease-in-out infinite;
+}
+
+.pause-text {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.9rem;
+  color: #ffff00;
+  text-shadow: 2px 2px 0 #000;
+  letter-spacing: 3px;
+}
+
+@keyframes pause-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+

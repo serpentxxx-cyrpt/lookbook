@@ -46,7 +46,14 @@ export async function init({
     const preloader = document.getElementById('preloader');
     if (preloader) {
       preloader.classList.add('fade-out');
-      setTimeout(() => preloader.remove(), 600);
+      setTimeout(() => {
+        preloader.remove();
+        // Reveal the instructions popup
+        const popup = document.getElementById('instructions-popup');
+        if (popup) {
+          popup.style.display = 'flex';
+        }
+      }, 600);
     }
   }, 1000);
 

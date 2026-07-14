@@ -188,6 +188,11 @@ function initKeyPressEvents(): void {
       return;
     }
 
+    const target = (window as any).keyboardControlTarget || 'menu';
+    if (target !== 'pacman') {
+      return;
+    }
+
     switch (event.key) {
       case 'ArrowUp':
         setPlayerDirection(state.game, Direction.up);
@@ -207,19 +212,23 @@ function initKeyPressEvents(): void {
 
 function initSwipeEvents(): void {
   document.addEventListener('swiped-up', () => {
-    setPlayerDirection(state.game, Direction.up);
+    const target = (window as any).keyboardControlTarget || 'menu';
+    if (target === 'pacman') setPlayerDirection(state.game, Direction.up);
   });
 
   document.addEventListener('swiped-right', () => {
-    setPlayerDirection(state.game, Direction.right);
+    const target = (window as any).keyboardControlTarget || 'menu';
+    if (target === 'pacman') setPlayerDirection(state.game, Direction.right);
   });
 
   document.addEventListener('swiped-down', () => {
-    setPlayerDirection(state.game, Direction.down);
+    const target = (window as any).keyboardControlTarget || 'menu';
+    if (target === 'pacman') setPlayerDirection(state.game, Direction.down);
   });
 
   document.addEventListener('swiped-left', () => {
-    setPlayerDirection(state.game, Direction.left);
+    const target = (window as any).keyboardControlTarget || 'menu';
+    if (target === 'pacman') setPlayerDirection(state.game, Direction.left);
   });
 }
 

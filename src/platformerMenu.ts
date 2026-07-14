@@ -6,6 +6,8 @@
  */
 
 // ── Navigation (no circular imports) ────────────────────────────────────────
+import { playJumpSound, playStepSound } from './shared/utils/sound';
+
 function navigateTo(route: string): void {
   window.dispatchEvent(new CustomEvent('platformer-navigate', { detail: { route } }));
 }
@@ -135,6 +137,7 @@ function doJump(): void {
   if (!jumping) {
     vY = JUMP_VEL;
     jumping = true;
+    playJumpSound();
   }
 }
 
@@ -224,7 +227,11 @@ function loop(): void {
     const limitedStep = Math.max(-WALK_SPEED, Math.min(WALK_SPEED, step));
     bX = clampX(bX + limitedStep);
     faceLeft = targetX < bX;
-    if (++aTick > 7) { aFrame = 1 - aFrame; aTick = 0; }
+    if (++aTick > 7) {
+      aFrame = 1 - aFrame;
+      aTick = 0;
+      playStepSound();
+    }
   }
 
   // Update tile heights (smooth rise/fall levitation animations)
@@ -399,12 +406,14 @@ function init(): void {
 
   // ── Input: keyboard ───────────────────────────────────────────────
   window.addEventListener('keydown', e => {
+    if ((window as any).keyboardControlTarget !== 'menu') return;
     if (document.activeElement?.closest('#canvas-app')) return; // don't steal game keys
     if (e.key === 'ArrowLeft') { goLeft = true; faceLeft = true; e.preventDefault(); }
     if (e.key === 'ArrowRight') { goRight = true; faceLeft = false; e.preventDefault(); }
     if (e.key === 'ArrowUp') { doJump(); e.preventDefault(); }
   });
   window.addEventListener('keyup', e => {
+    if ((window as any).keyboardControlTarget !== 'menu') return;
     if (e.key === 'ArrowLeft') goLeft = false;
     if (e.key === 'ArrowRight') goRight = false;
   });

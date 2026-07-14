@@ -8,6 +8,7 @@ import { NpcState } from '../shared/state/game/types';
 import { setCurrentRoute } from '../shared/state/route/actions';
 import type { ApplicationInjects } from '../types';
 import { getRelativePath, getAbsoluteUrl } from '../shared/utils/routing';
+import { playCollisionSound } from '../shared/utils/sound';
 
 import { ContentHandler } from './handlers/ContentHandler';
 import { FixedMenuHandler } from './handlers/FixedMenuHandler';
@@ -87,6 +88,31 @@ export function init(injects: ApplicationInjects): void {
     navigateWithTransition(getRelativePath(window.location.pathname), false);
   });
 
+  // ── Pause overlay helper ──────────────────────────────────────────
+  function updatePauseOverlay(): void {
+    const overlay = document.getElementById('maze-pause-overlay');
+    const target = (window as any).keyboardControlTarget || 'menu';
+    const normalizedPath = normalizePath(getRelativePath(window.location.pathname));
+    const isHomePage = normalizedPath === '/' || normalizedPath === '';
+
+    if (isHomePage && target === 'menu') {
+      // Pause the game loop and show overlay
+      pauseGameLoop(injects.state.gameLoop);
+      if (overlay) overlay.style.display = 'flex';
+    } else if (isHomePage && target === 'pacman') {
+      // Resume the game loop and hide overlay
+      resumeGameLoop(injects.state.gameLoop);
+      if (overlay) overlay.style.display = 'none';
+    } else {
+      // On subpages, always hide overlay (game is paused by subpage logic)
+      if (overlay) overlay.style.display = 'none';
+    }
+  }
+
+  // Listen for toggle changes
+  window.addEventListener('keyboard-target-change', () => {
+    updatePauseOverlay();
+  });
 
   function applyRouteSideEffects(path: string): void {
     const normalizedPath = normalizePath(path);
@@ -95,9 +121,16 @@ export function init(injects: ApplicationInjects): void {
       floatingMenuHandler.enableLinks();
       fixedMenuHandler.enableLinks();
 
-      resumeGameLoop(injects.state.gameLoop);
+      // Only resume if pacman mode is active; otherwise keep paused
+      const target = (window as any).keyboardControlTarget || 'menu';
+      if (target === 'pacman') {
+        resumeGameLoop(injects.state.gameLoop);
+      } else {
+        pauseGameLoop(injects.state.gameLoop);
+      }
 
       if (injects.state.game.player.collision) {
+        playCollisionSound();
         setNpcState(injects.state.game.player.collision, NpcState.respawning);
 
         const respawnXOffset = Math.random() >= 0.5 ? -0.5 : 0.5;
@@ -113,12 +146,19 @@ export function init(injects: ApplicationInjects): void {
       }
 
       document.body.classList.add('has-menu-toggle');
+
+      // Sync pause overlay
+      updatePauseOverlay();
     } else {
       employerLink.setAttribute('tabindex', '-1');
       floatingMenuHandler.disableLinks();
       fixedMenuHandler.disableLinks();
 
       pauseGameLoop(injects.state.gameLoop);
+
+      // Hide overlay on subpages
+      const overlay = document.getElementById('maze-pause-overlay');
+      if (overlay) overlay.style.display = 'none';
 
       document.body.classList.remove('has-menu-toggle');
     }

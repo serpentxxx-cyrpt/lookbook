@@ -21,11 +21,96 @@ import { getAbsoluteUrl } from '../shared/utils/routing';
     </div>
   </div>
 
+  <!-- Instructions Popup -->
+  <div id="instructions-popup" class="instructions-popup" style="display: none;">
+    <div class="instructions-content">
+      <button id="instructions-close-btn" class="instructions-close">&times;</button>
+      <h2 class="instructions-title">HOW TO PLAY</h2>
+      <div class="instructions-body">
+        <p>1. Toggle <b>KEY CONTROLS</b> to switch between <b>MENU Ghost</b> or <b>PACMAN</b> arrow key control.</p>
+        <p>2. Press <b>JUMP</b> or <b>Up Arrow</b> (⬆) to leap in Menu mode.</p>
+        <p>3. Stand on floating islands and click <b>[ OPEN ]</b> to explore sections.</p>
+        <p>4. On-screen buttons always move the Red Ghost.</p>
+        <p>5. When Pacman <b>collides with a ghost</b>, it opens that ghost's section!</p>
+      </div>
+      <button id="instructions-start-btn" class="instructions-start-btn">READY!</button>
+    </div>
+  </div>
+
+  <script>
+    const popup = document.getElementById('instructions-popup');
+    const closeBtn = document.getElementById('instructions-close-btn');
+    const startBtn = document.getElementById('instructions-start-btn');
+
+    const closePopup = () => {
+      if (popup) {
+        popup.classList.add('fade-out');
+        setTimeout(() => popup.remove(), 400);
+      }
+    };
+
+    if (closeBtn) closeBtn.addEventListener('click', closePopup);
+    if (startBtn) startBtn.addEventListener('click', closePopup);
+
+    // Keyboard & sound toggle control bindings
+    (window as any).keyboardControlTarget = 'menu';
+    (window as any).audioMuted = false;
+
+    const menuToggle = document.getElementById('toggle-control-menu');
+    const pacmanToggle = document.getElementById('toggle-control-pacman');
+    const soundToggle = document.getElementById('toggle-sound');
+
+    if (menuToggle && pacmanToggle) {
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.add('active');
+        pacmanToggle.classList.remove('active');
+        (window as any).keyboardControlTarget = 'menu';
+        window.dispatchEvent(new CustomEvent('keyboard-target-change', { detail: 'menu' }));
+      });
+
+      pacmanToggle.addEventListener('click', () => {
+        pacmanToggle.classList.add('active');
+        menuToggle.classList.remove('active');
+        (window as any).keyboardControlTarget = 'pacman';
+        window.dispatchEvent(new CustomEvent('keyboard-target-change', { detail: 'pacman' }));
+      });
+    }
+
+    if (soundToggle) {
+      soundToggle.addEventListener('click', () => {
+        const isMuted = !(window as any).audioMuted;
+        (window as any).audioMuted = isMuted;
+        if (isMuted) {
+          soundToggle.classList.remove('active');
+          soundToggle.textContent = 'OFF';
+        } else {
+          soundToggle.classList.add('active');
+          soundToggle.textContent = 'ON';
+        }
+      });
+    }
+  </script>
+
   <main class="grid">
     <header class="header">
       <h1>TRIDIBESH SEN - PORTFOLIO</h1>
       <a href="#" id="employer-link" style="display: none;" tabindex="-1"></a>
     </header>
+
+    <!-- Controls Toggle Panel -->
+    <div class="controls-toggle-container">
+      <div class="toggle-section">
+        <span class="controls-toggle-label">KEY CONTROLS</span>
+        <div class="controls-toggle-buttons">
+          <button id="toggle-control-menu" class="toggle-btn active">MENU</button>
+          <button id="toggle-control-pacman" class="toggle-btn">PACMAN</button>
+        </div>
+      </div>
+      <div class="toggle-section sound-section">
+        <span class="controls-toggle-label">SOUND</span>
+        <button id="toggle-sound" class="toggle-btn active">ON</button>
+      </div>
+    </div>
     <div id="platformer-menu" class="platformer-menu">
       <canvas id="entity-canvas"></canvas>
       <div class="controls-row">
@@ -40,7 +125,12 @@ import { getAbsoluteUrl } from '../shared/utils/routing';
       </div>
     </div>
     <div class="content">
-      <div class="canvas-wrapper" id="canvas-app"></div>
+      <div class="canvas-wrapper" id="canvas-app">
+        <div id="maze-pause-overlay" class="maze-pause-overlay" style="display: none;">
+          <div class="pause-symbol">❚❚</div>
+          <div class="pause-text">PAUSED</div>
+        </div>
+      </div>
     </div>
   </main>
   <a
