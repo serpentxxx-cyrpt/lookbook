@@ -98,9 +98,10 @@ p {
     pointer-events: auto;
   }
 
-  /* Mobile: no horizontal padding so canvas fills edge-to-edge */
+  /* Mobile: large top padding clears browser chrome; no horizontal padding so canvas fills edge-to-edge */
   @media (max-width: 767px) {
-    padding: 6px 0 0;
+    height: 100dvh;         /* dynamic viewport — excludes address bar on mobile */
+    padding: 52px 0 0;     /* clears browser chrome at top */
   }
 }
 
