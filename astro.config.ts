@@ -3,7 +3,7 @@ import path from 'node:path';
 
 export default defineConfig({
   site: 'https://serpentxxx-cyrpt.github.io',
-  base: '/lookbook',
+  base: '/',
   srcDir: 'src',
   outDir: 'dist',
   output: 'static',
