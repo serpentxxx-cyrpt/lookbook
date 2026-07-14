@@ -1,0 +1,87 @@
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  z-index: 10000; // on top of everything
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 8px double #2121de;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+
+  &.fade-out {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
+.preloader-content {
+  text-align: center;
+  max-width: 90%;
+}
+
+.preloader-text {
+  font-family: 'Press Start 2P', cursive;
+  font-size: clamp(0.85rem, 4.5vw, 2.2rem);
+  line-height: 1.8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+  text-shadow: 3px 3px 0 #000000;
+
+  span {
+    display: inline-block;
+    animation: rainbow 2s infinite linear;
+  }
+
+  // Stagger delays for each letter (up to 30 characters)
+  @for $i from 1 through 30 {
+    span:nth-child(#{$i}) {
+      animation-delay: #{$i * 80}ms;
+    }
+  }
+}
+
+.preloader-loading {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.8rem;
+  color: #00ffde;
+  margin-bottom: 1.5rem;
+  animation: blink 1.2s infinite steps(2, start);
+}
+
+.preloader-bar {
+  width: 240px;
+  height: 12px;
+  border: 2px solid #2121de;
+  margin: 0 auto;
+  padding: 1px;
+}
+
+.preloader-bar-inner {
+  height: 100%;
+  background-color: #ffff00;
+  width: 0%;
+  animation: progressFill 2.5s forwards cubic-bezier(0.1, 0.8, 0.3, 1);
+}
+
+@keyframes progressFill {
+  0% { width: 0%; }
+  20% { width: 15%; }
+  45% { width: 48%; }
+  75% { width: 85%; }
+  100% { width: 100%; }
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}

@@ -1,11 +1,12 @@
 ---
 import { portfolioSections } from '../../data/portfolio';
+import { getAbsoluteUrl } from '../../shared/utils/routing';
 ---
 
 <div data-route="/portfolio" class="subpage subpage--portfolio">
   <article class="subpage__wrapper">
     <div class="subpage__header">
-      <a href="/" class="subpage__close-button">X</a>
+      <a href={getAbsoluteUrl('/')} class="subpage__close-button">X</a>
       <h2 class="subpage__title">Portfolio</h2>
     </div>
     <div class="subpage__content-wrapper">
@@ -17,9 +18,11 @@ import { portfolioSections } from '../../data/portfolio';
               {section.items.map((item) => (
                 <div class="subpage--portfolio__gallery-item">
                   <div class="subpage--portfolio__gallery-item-content">
-                    <div class="subpage--portfolio__gallery-item-image">
-                      <img src={item.image} alt={item.alt} />
-                    </div>
+                    {item.image && (
+                      <div class="subpage--portfolio__gallery-item-image">
+                        <img src={getAbsoluteUrl(item.image)} alt={item.alt} />
+                      </div>
+                    )}
                     <div class="subpage--portfolio__gallery-item-description">
                       <h4 class="subpage--portfolio__gallery-item-title">
                         {item.title}

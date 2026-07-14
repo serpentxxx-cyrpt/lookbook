@@ -1,4 +1,5 @@
 import { AnimatedSprite, Loader } from 'pixi.js';
+import { getAbsoluteUrl } from '../../shared/utils/routing';
 
 export enum SpriteSheets {
   pacmanSpriteSheet = 'pacmanSpriteSheet',
@@ -8,9 +9,10 @@ export enum SpriteSheets {
 export type Assets = SpriteSheets;
 
 const assetsLocationsMap: Record<Assets, string> = {
-  [SpriteSheets.ghostSpriteSheet]: '/assets/spritesheets/ghost.json',
-  [SpriteSheets.pacmanSpriteSheet]: '/assets/spritesheets/pacman.json',
+  [SpriteSheets.ghostSpriteSheet]: getAbsoluteUrl('/assets/spritesheets/ghost.json'),
+  [SpriteSheets.pacmanSpriteSheet]: getAbsoluteUrl('/assets/spritesheets/pacman.json'),
 };
+
 
 export class AssetsLoader {
   public static readonly loader = new Loader();

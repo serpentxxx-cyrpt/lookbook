@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@vue/reactivity": "3.2.33",
-    "navigo": "8.11.1",
     "pixi.js": "6.3.0",
     "swiped-events": "^1.2.0"
   },

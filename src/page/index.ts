@@ -7,6 +7,7 @@ import { setEntityPosition, setNpcState } from '../shared/state/game/actions';
 import { NpcState } from '../shared/state/game/types';
 import { setCurrentRoute } from '../shared/state/route/actions';
 import type { ApplicationInjects } from '../types';
+import { getRelativePath, getAbsoluteUrl } from '../shared/utils/routing';
 
 import { ContentHandler } from './handlers/ContentHandler';
 import { FixedMenuHandler } from './handlers/FixedMenuHandler';
@@ -25,14 +26,14 @@ export function init(injects: ApplicationInjects): void {
     return path;
   }
 
-  let currentRoute = normalizePath(window.location.pathname);
+  let currentRoute = normalizePath(getRelativePath(window.location.pathname));
   let navigating = false;
 
   async function navigateWithTransition(
     target: string,
     pushState = true,
   ): Promise<void> {
-    const normalizedTarget = normalizePath(target);
+    const normalizedTarget = normalizePath(getRelativePath(target));
     if (!normalizedTarget || normalizedTarget === currentRoute || navigating) {
       return;
     }
@@ -49,7 +50,7 @@ export function init(injects: ApplicationInjects): void {
       await contentHandler.navigateTo(normalizedTarget);
 
       if (pushState) {
-        window.history.pushState({}, '', normalizedTarget);
+        window.history.pushState({}, '', getAbsoluteUrl(normalizedTarget));
       }
 
       currentRoute = normalizedTarget;
@@ -74,8 +75,8 @@ export function init(injects: ApplicationInjects): void {
   fixedMenuHandler.addMenuEventHandlers();
   contentHandler.addEventHandlers();
 
-  setCurrentRoute(injects.state.route, normalizePath(window.location.pathname));
-  applyRouteSideEffects(normalizePath(window.location.pathname));
+  setCurrentRoute(injects.state.route, normalizePath(getRelativePath(window.location.pathname)));
+  applyRouteSideEffects(normalizePath(getRelativePath(window.location.pathname)));
 
   contentHandler.initialTransition();
   contentHandler.initialControllerShow();
@@ -83,8 +84,9 @@ export function init(injects: ApplicationInjects): void {
   injects.router.setNavigate(navigateWithTransition);
 
   window.addEventListener('popstate', () => {
-    navigateWithTransition(window.location.pathname, false);
+    navigateWithTransition(getRelativePath(window.location.pathname), false);
   });
+
 
   function applyRouteSideEffects(path: string): void {
     const normalizedPath = normalizePath(path);

@@ -1,4 +1,26 @@
+---
+import { getAbsoluteUrl } from '../shared/utils/routing';
+---
 <body style="visibility: hidden">
+  <!-- Preloader Screen -->
+  <div id="preloader" class="preloader">
+    <div class="preloader-content">
+      <h1 class="preloader-text">
+        <span>T</span><span>R</span><span>I</span><span>D</span><span>I</span><span>B</span><span>E</span><span>S</span><span>H</span>
+        <span>&nbsp;</span>
+        <span>S</span><span>E</span><span>N</span>
+        <span>&nbsp;</span>
+        <span>-</span>
+        <span>&nbsp;</span>
+        <span>P</span><span>O</span><span>R</span><span>T</span><span>F</span><span>O</span><span>L</span><span>I</span><span>O</span>
+      </h1>
+      <div class="preloader-loading">LOADING SYSTEM...</div>
+      <div class="preloader-bar">
+        <div class="preloader-bar-inner"></div>
+      </div>
+    </div>
+  </div>
+
   <main class="grid">
     <header class="header">
       <h1>TRIDIBESH SEN - PORTFOLIO</h1>
@@ -33,10 +55,10 @@
   </a>
   <nav class="menu floating-menu" id="floating-menu">
     <div class="floating-menu__items">
-      <a tabindex="-1" href="/about" class="red">About</a>
-      <a tabindex="-1" href="/portfolio" class="pink">Portfolio</a>
-      <a tabindex="-1" href="/contact" class="orange">Contact</a>
-      <a tabindex="-1" href="/resume" class="aqua">CV</a>
+      <a tabindex="-1" href={getAbsoluteUrl('/about')} class="red">About</a>
+      <a tabindex="-1" href={getAbsoluteUrl('/portfolio')} class="pink">Portfolio</a>
+      <a tabindex="-1" href={getAbsoluteUrl('/contact')} class="orange">Contact</a>
+      <a tabindex="-1" href={getAbsoluteUrl('/resume')} class="aqua">CV</a>
     </div>
   </nav>
   <div id="transition-element" class="transition-element-wrapper">

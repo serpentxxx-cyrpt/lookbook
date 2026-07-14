@@ -1,19 +1,22 @@
+---
+import { getAbsoluteUrl } from '../../shared/utils/routing';
+---
 <div data-route="/about" class="subpage subpage--about">
   <article class="subpage__wrapper">
     <div class="subpage__header">
-      <a href="/" class="subpage__close-button">X</a>
+      <a href={getAbsoluteUrl('/')} class="subpage__close-button">X</a>
       <h2 class="subpage__title">About me</h2>
     </div>
     <div class="subpage__content-wrapper">
       <div class="subpage__content">
         <div class="subpage--about__avatar">
           <img
-            src="/images/tridibesh_avatar.png"
+            src={getAbsoluteUrl('/images/tridibesh_avatar.jpg')}
             alt="Tridibesh Sen"
             class="subpage--about__avatar-image"
           />
           <div class="subpage--about__avatar-arrow">
-            <img src="/images/icons/arrow_right.svg" alt="Arrow" />
+            <img src={getAbsoluteUrl('/images/icons/arrow_right.svg')} alt="Arrow" />
           </div>
           <div class="subpage--about__avatar-caption">This is me!</div>
         </div>
@@ -28,8 +31,8 @@
             My approach to engineering is hands-on. I enjoy the process of solving complex, real-world problems by writing clean, efficient code and architecting systems that actually work under pressure.
           </p>
           <p>
-            Why don't you explore my <a href="/portfolio">portfolio items</a> or
-            <a href="/contact">reach out directly</a>?
+            Why don't you explore my <a href={getAbsoluteUrl('/portfolio')}>portfolio items</a> or
+            <a href={getAbsoluteUrl('/contact')}>reach out directly</a>?
           </p>
         </div>
 

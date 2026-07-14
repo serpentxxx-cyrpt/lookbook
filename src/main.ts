@@ -34,12 +34,12 @@ const injects: ApplicationInjects = {
 function initState(): void {
   const originalHeight = map.height;
 
-  // Calculate cell size and dimensions dynamically to fit viewport exactly
   const screenHeight = typeof window !== 'undefined' ? window.innerHeight : 930;
   const screenWidth = typeof window !== 'undefined' ? window.innerWidth : 1680;
 
-  // We scale the cell size to fit 31 rows of height, but the grid only holds 26 rows (playable space)
-  const cellSize = Math.max(16, Math.floor(screenHeight / originalHeight));
+  // We scale the cell size to fit the content container height (82vh, using 76% of screen height for safety)
+  const maxAvailableHeight = screenHeight * 0.76;
+  const cellSize = Math.max(16, Math.floor(maxAvailableHeight / (originalHeight - 5)));
   const newWidth = Math.floor(screenWidth / cellSize);
   const newHeight = originalHeight - 5; // 26 rows
   const midX = Math.floor(newWidth / 2);
@@ -55,7 +55,7 @@ function initState(): void {
   createGrid(state.grid, newWidth, newHeight, cellSize, 3);
 
   // Generate procedural widescreen maze
-  const newCells = generateMaze(newWidth, newHeight, cellSize, config);
+  const newCells = generateMaze(newWidth, newHeight, config);
 
   setCellsValues(state.grid, newCells);
 
@@ -206,24 +206,19 @@ function initKeyPressEvents(): void {
 }
 
 function initSwipeEvents(): void {
-  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-  const canvas = document.querySelector<HTMLCanvasElement>(
-    '#canvas-app > canvas',
-  )!;
-
-  document.addEventListener('swiped-up', (event) => {
+  document.addEventListener('swiped-up', () => {
     setPlayerDirection(state.game, Direction.up);
   });
 
-  document.addEventListener('swiped-right', (event) => {
+  document.addEventListener('swiped-right', () => {
     setPlayerDirection(state.game, Direction.right);
   });
 
-  document.addEventListener('swiped-down', (event) => {
+  document.addEventListener('swiped-down', () => {
     setPlayerDirection(state.game, Direction.down);
   });
 
-  document.addEventListener('swiped-left', (event) => {
+  document.addEventListener('swiped-left', () => {
     setPlayerDirection(state.game, Direction.left);
   });
 }

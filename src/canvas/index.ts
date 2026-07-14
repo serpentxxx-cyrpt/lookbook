@@ -41,6 +41,15 @@ export async function init({
 
   await AssetsLoader.load();
 
+  // Hide the preloader screen after a short delay so the loading bar animation is shown
+  setTimeout(() => {
+    const preloader = document.getElementById('preloader');
+    if (preloader) {
+      preloader.classList.add('fade-out');
+      setTimeout(() => preloader.remove(), 600);
+    }
+  }, 1000);
+
   ticker.add(() => {
     if (
       state.gameLoop.paused &&

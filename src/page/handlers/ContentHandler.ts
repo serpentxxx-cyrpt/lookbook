@@ -12,6 +12,7 @@ import {
 import { config } from '../../config';
 import type { ApplicationInjects } from '../../types';
 import type { BaseSubpage } from '../subpages/BaseSubpage';
+import { getRelativePath, getAbsoluteUrl } from '../../shared/utils/routing';
 
 type NavTransitionData = {
   route: string;
@@ -124,7 +125,7 @@ export class ContentHandler {
     const firstLoadSubpage =
       this.isFirstLoad &&
       this.currentPage &&
-      this.normalizePath(window.location.pathname) !== '/';
+      this.normalizePath(getRelativePath(window.location.pathname)) !== '/';
 
     this.isFirstLoad = false;
 
@@ -204,7 +205,7 @@ export class ContentHandler {
   }
 
   private getCurrentPage(): HTMLDivElement | null {
-    const currentPath = this.normalizePath(window.location.pathname);
+    const currentPath = this.normalizePath(getRelativePath(window.location.pathname));
 
     if (!currentPath) {
       return null;
@@ -399,7 +400,7 @@ export class ContentHandler {
 
       if (
         this.normalizePath(parsed.route) !==
-        this.normalizePath(window.location.pathname)
+        this.normalizePath(getRelativePath(window.location.pathname))
       ) {
         return null;
       }
@@ -528,7 +529,7 @@ export class ContentHandler {
       return existing;
     }
 
-    const response = await fetch(route, { credentials: 'same-origin' });
+    const response = await fetch(getAbsoluteUrl(route), { credentials: 'same-origin' });
 
     if (!response.ok) {
       return null;

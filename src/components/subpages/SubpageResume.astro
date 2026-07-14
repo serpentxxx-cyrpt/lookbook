@@ -1,7 +1,10 @@
+---
+import { getAbsoluteUrl } from '../../shared/utils/routing';
+---
 <div data-route="/resume" class="subpage subpage--resume">
   <article class="subpage__wrapper">
     <div class="subpage__header">
-      <a href="/" class="subpage__close-button">X</a>
+      <a href={getAbsoluteUrl('/')} class="subpage__close-button">X</a>
       <h2 class="subpage__title">Resume</h2>
     </div>
     <div class="subpage__content-wrapper">
@@ -13,6 +16,15 @@
             <span>Kolkata, India</span> |
             <span><a href="https://www.linkedin.com/in/tridibesh-sen/" target="_blank">LinkedIn</a></span>
           </div>
+          <div class="cv-download-container">
+            <a
+              href={getAbsoluteUrl('/images/Tridibesh_Sen_Resume.pdf')}
+              download="Tridibesh_Sen_Resume.pdf"
+              class="cv-download-btn"
+            >
+              DOWNLOAD CV (PDF)
+            </a>
+          </div>
         </header>
 
         <section class="cv-section">
@@ -23,61 +35,84 @@
         </section>
 
         <section class="cv-section">
-          <h3>Education</h3>
+          <h3>Experience</h3>
+
           <div class="cv-item">
             <div class="cv-item-header">
-              <h4 class="cv-school">University of Engineering & Management (UEM), Kolkata</h4>
-              <span class="cv-duration">B.Tech in Computer Science & Engineering</span>
+              <h4 class="cv-company">Web Developer | Ignitia</h4>
+              <span class="cv-duration">May 2026 – Present</span>
             </div>
+            <ul>
+              <li>Built and maintained responsive web apps using React.js, HTML5, CSS3, and JavaScript.</li>
+              <li>Collaborated with design and backend teams to ship user-centric features across production modules.</li>
+            </ul>
+          </div>
+
+          <div class="cv-item">
+            <div class="cv-item-header">
+              <h4 class="cv-company">AI/ML Intern | IEDC, UEM Kolkata</h4>
+              <span class="cv-duration">May 2026 – Present</span>
+            </div>
+            <div class="cv-role">Dept. of CSE IoT, CS & BT</div>
+            <ul>
+              <li>Prototyped ML models and GenAI pipelines using Python, scikit-learn, and OpenAI APIs.</li>
+              <li>Contributed to internal AI research and delivered knowledge-sharing sessions on generative AI.</li>
+            </ul>
+          </div>
+
+          <div class="cv-item">
+            <div class="cv-item-header">
+              <h4 class="cv-company">Core Member | Microsoft Student Society, UEMK</h4>
+              <span class="cv-duration">June 2026 – Present</span>
+            </div>
+            <ul>
+              <li>Organised technical workshops on Azure, GitHub, and developer tools; mentored juniors in cloud and full-stack fundamentals.</li>
+            </ul>
+          </div>
+
+          <div class="cv-item">
+            <div class="cv-item-header">
+              <h4 class="cv-company">Solution Challenge Participant | Google Developer Experts</h4>
+              <span class="cv-duration">Mar 2026 – Apr 2026</span>
+            </div>
+            <div class="cv-role">Solution Challenge 2026</div>
+            <ul>
+              <li>Built and pitched a community-impact solution using Firebase, Google Cloud, and React in a 2-month sprint.</li>
+            </ul>
           </div>
         </section>
 
         <section class="cv-section">
-          <h3>Technical Experience & Projects</h3>
+          <h3>Projects</h3>
 
           <div class="cv-item">
-            <div class="cv-item-header">
-              <h4 class="cv-company">Backend API & System Optimization</h4>
-              <span class="cv-duration">Ongoing</span>
-            </div>
+            <h4 class="cv-company">AI-Powered Data Analysis Platform</h4>
             <ul>
-              <li>Designed and built RESTful and gRPC API backends, achieving low latency through query optimization and caching.</li>
-              <li>Architected modular system structures designed to run reliably under high concurrent traffic pressure.</li>
-              <li>Wrote clean, efficient, and well-documented codebase templates for systems engineering.</li>
+              <li>Full-stack web app integrating the OpenAI Assistant API for automated data analysis and insights from uploaded datasets.</li>
+              <li><b>Stack:</b> React.js, Node.js, OpenAI API, Firebase.</li>
             </ul>
           </div>
 
           <div class="cv-item">
-            <div class="cv-item-header">
-              <h4 class="cv-company">Edge Machine Learning Pipelines</h4>
-              <span class="cv-duration">Project Work</span>
-            </div>
+            <h4 class="cv-company">MERN Stack Portfolio & Blog</h4>
             <ul>
-              <li>Optimized computer vision and neural network models for deployment on resource-constrained microcontrollers and edge hardware.</li>
-              <li>Utilized quantization techniques to reduce model size and inference latency without significant loss in accuracy.</li>
+              <li>Personal portfolio with a dynamic blog module built on MongoDB, Express.js, React, and Node.js.</li>
+              <li>Features a dark-mode UI, project showcases, and contact forms.</li>
             </ul>
           </div>
 
           <div class="cv-item">
-            <div class="cv-item-header">
-              <h4 class="cv-company">Full-Stack MERN & AI Integration</h4>
-              <span class="cv-duration">Project Work</span>
-            </div>
+            <h4 class="cv-company">Cybersecurity Awareness Web App</h4>
             <ul>
-              <li>Built end-to-end full-stack web applications utilizing the MERN stack (MongoDB, Express.js, React.js, Node.js).</li>
-              <li>Integrated OpenAI and other LLM APIs into MERN backends to build intelligent, conversational, and AI-enabled apps.</li>
-              <li>Implemented secure JWT authentication, state management via Redux Toolkit, and MVC architecture.</li>
+              <li>Interactive educational app covering phishing, encryption, and network security concepts.</li>
+              <li>Developed as part of Cyber Security Fundamentals certification coursework.</li>
             </ul>
           </div>
 
           <div class="cv-item">
-            <div class="cv-item-header">
-              <h4 class="cv-company">Hardware-Software Bridging (IoT)</h4>
-              <span class="cv-duration">Project Work</span>
-            </div>
+            <h4 class="cv-company">MySQL Data Engineering Pipeline</h4>
             <ul>
-              <li>Engineered firmware modules for hardware controllers interfacing sensors, actuators, and communication transceivers.</li>
-              <li>Developed communication layers utilizing MQTT/WebSockets to sync physical device states with cloud databases.</li>
+              <li>Designed normalised schemas and ETL pipelines in MySQL for structured data ingestion, transformation, and reporting.</li>
             </ul>
           </div>
         </section>
@@ -85,18 +120,74 @@
         <section class="cv-section">
           <h3>Skills</h3>
           <div class="cv-skills-grid">
-            <span class="cv-skill-pill">React.js</span>
-            <span class="cv-skill-pill">Node.js / Express</span>
-            <span class="cv-skill-pill">MongoDB / Mongoose</span>
-            <span class="cv-skill-pill">JavaScript (ES6+)</span>
+            <span class="cv-skill-pill">JavaScript</span>
             <span class="cv-skill-pill">TypeScript</span>
-            <span class="cv-skill-pill">C / C++</span>
             <span class="cv-skill-pill">Python</span>
-            <span class="cv-skill-pill">REST & gRPC APIs</span>
-            <span class="cv-skill-pill">AI Integration / OpenAI</span>
-            <span class="cv-skill-pill">IoT & Systems</span>
-            <span class="cv-skill-pill">Testing (Jest / Supertest)</span>
+            <span class="cv-skill-pill">C</span>
+            <span class="cv-skill-pill">Bash/Shell</span>
+            <span class="cv-skill-pill">React.js</span>
+            <span class="cv-skill-pill">Next.js</span>
+            <span class="cv-skill-pill">HTML5 / CSS3</span>
+            <span class="cv-skill-pill">Tailwind CSS</span>
+            <span class="cv-skill-pill">Node.js</span>
+            <span class="cv-skill-pill">Express.js</span>
+            <span class="cv-skill-pill">REST APIs</span>
+            <span class="cv-skill-pill">Firebase</span>
+            <span class="cv-skill-pill">MySQL</span>
+            <span class="cv-skill-pill">MongoDB</span>
+            <span class="cv-skill-pill">OpenAI API</span>
+            <span class="cv-skill-pill">Generative AI</span>
+            <span class="cv-skill-pill">Data Analysis</span>
+            <span class="cv-skill-pill">Pandas</span>
+            <span class="cv-skill-pill">scikit-learn</span>
             <span class="cv-skill-pill">Git / GitHub</span>
+            <span class="cv-skill-pill">VS Code</span>
+            <span class="cv-skill-pill">Figma</span>
+            <span class="cv-skill-pill">Linux</span>
+          </div>
+        </section>
+
+        <section class="cv-section">
+          <h3>Education</h3>
+
+          <div class="cv-item">
+            <div class="cv-item-header">
+              <h4 class="cv-school">B.Tech — Computer Science and Engineering</h4>
+              <span class="cv-duration">July 2025 – July 2029</span>
+            </div>
+            <div class="cv-role">University of Engineering & Management (UEM), Kolkata</div>
+            <ul>
+              <li>Focused on AI, Data Analytics, and Full-Stack Web Development.</li>
+            </ul>
+          </div>
+
+          <div class="cv-item">
+            <div class="cv-item-header">
+              <h4 class="cv-school">Higher Secondary (Class XII — Science)</h4>
+              <span class="cv-duration">Apr 2023 – Apr 2025</span>
+            </div>
+            <div class="cv-role">GSMS Taki House, West Bengal, India</div>
+          </div>
+        </section>
+
+        <section class="cv-section">
+          <h3>Certifications</h3>
+          <div class="cv-skills-grid">
+            <span class="cv-skill-pill">GenAI for Data Analysis: OpenAI Assistant API</span>
+            <span class="cv-skill-pill">MySQL for Data Engineering</span>
+            <span class="cv-skill-pill">AI Tools Workshop</span>
+            <span class="cv-skill-pill">Cyber Security Fundamentals</span>
+            <span class="cv-skill-pill">Problem Solving Through Programming in C</span>
+            <span class="cv-skill-pill">Generative AI for Web Developers</span>
+          </div>
+        </section>
+
+        <section class="cv-section">
+          <h3>Languages</h3>
+          <div class="cv-skills-grid">
+            <span class="cv-skill-pill">English (Full Professional)</span>
+            <span class="cv-skill-pill">Bangla (Professional Working)</span>
+            <span class="cv-skill-pill">Hindi (Professional Working)</span>
           </div>
         </section>
       </div>

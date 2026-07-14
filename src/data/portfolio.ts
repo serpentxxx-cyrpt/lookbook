@@ -23,7 +23,7 @@ export const portfolioSections: PortfolioSection[] = [
     items: [
       {
         title: 'IGNITIA',
-        image: '/images/portfolio/isometric_rush.png',
+        image: '/images/portfolio/Ignitia.png',
         alt: 'Ignitia Live Portal',
         pills: ['TypeScript', 'React.js', 'GreenSock Animation Platform (GSAP)', 'WebDev'],
         bullets: [
@@ -40,7 +40,7 @@ export const portfolioSections: PortfolioSection[] = [
       },
       {
         title: 'Multi-Agent Pedagogical System (MAES)',
-        image: '/images/portfolio/portfolio_pacman.png',
+        image: '/images/portfolio/MAES.png',
         alt: 'MAES Project',
         pills: ['Python', 'LangGraph', 'Retrieval-Augmented Generation (RAG)', 'Artificial Intelligence (AI)', 'JavaScript'],
         bullets: [
@@ -58,7 +58,7 @@ export const portfolioSections: PortfolioSection[] = [
       },
       {
         title: 'THE_FIRST_VOTE',
-        image: '/images/portfolio/sweets_space_factory.png',
+        image: '/images/portfolio/Fisrt vote (1).png',
         alt: 'THE_FIRST_VOTE',
         pills: ['3D Visualization', 'JavaScript', 'Node.js'],
         bullets: [
@@ -75,7 +75,7 @@ export const portfolioSections: PortfolioSection[] = [
       },
       {
         title: 'Orygin AI',
-        image: '/images/portfolio/pixi_components.png',
+        image: '/images/portfolio/OryginAI.png',
         alt: 'Orygin AI',
         pills: ['Python', 'Cybersecurity', 'Cryptography', 'OpenAI API', 'Data Analysis', 'MySQL', 'SQL', 'MERN Stack', 'Artificial Intelligence (AI)'],
         bullets: [
@@ -89,7 +89,7 @@ export const portfolioSections: PortfolioSection[] = [
       },
       {
         title: 'Autonomous Urban Response Agent (AURA)',
-        image: '/images/portfolio/zero_hour_jam_2022.png',
+        image: '/images/portfolio/AURA.png',
         alt: 'AURA Project',
         pills: ['JavaScript', 'React.js', 'Node.js', 'OpenAI API', 'MERN Stack'],
         bullets: [
@@ -106,7 +106,7 @@ export const portfolioSections: PortfolioSection[] = [
       },
       {
         title: 'Prompteiro',
-        image: '/images/portfolio/alpha_tunnel.png',
+        image: '/images/portfolio/Prompteiro.png',
         alt: 'Prompteiro VS Code Extension',
         pills: ['TypeScript', 'Node.js', 'Git', 'GitHub', 'Local LLMs', 'VS Code extension API', 'ollama', 'Microsoft Visual Studio Code'],
         bullets: [
@@ -120,6 +120,23 @@ export const portfolioSections: PortfolioSection[] = [
           }
         ]
       },
+      {
+        title: 'Developer Portfolio (This Portfolio)',
+        image: '/images/portfolio/devoloper-portfolio.png',
+        alt: 'Pacman Portfolio',
+        pills: ['Astro', 'TypeScript', 'Pixi.js', 'Vite', 'Sass', 'HTML5', 'CSS3'],
+        bullets: [
+          'Designed and developed this interactive, retro Pacman-themed developer portfolio.',
+          'Features a procedurally generated widescreen maze, responsive canvas platformer mechanics using PixiJS, and dynamic AI-controlled ghosts.',
+          'Engineered smooth client-side transitions and seamless subpage loading using Astro.'
+        ],
+        links: [
+          {
+            label: 'Live Site',
+            url: '#'
+          }
+        ]
+      },
     ]
   },
   {
@@ -127,7 +144,7 @@ export const portfolioSections: PortfolioSection[] = [
     items: [
       {
         title: 'Core Member',
-        image: '/images/portfolio/rust_ui.png',
+        image: '',
         alt: 'Microsoft Student Society UEMK',
         pills: ['Project Management'],
         bullets: [
@@ -139,7 +156,7 @@ export const portfolioSections: PortfolioSection[] = [
       },
       {
         title: 'AI/ML Intern',
-        image: '/images/portfolio/unity_experiments.png',
+        image: '',
         alt: 'Innovation and Entrepreneurship Development Cell',
         pills: ['Artificial Intelligence (AI)', 'Machine Learning', 'Generative AI for Web Developers', 'App Development'],
         bullets: [
@@ -151,7 +168,7 @@ export const portfolioSections: PortfolioSection[] = [
       },
       {
         title: 'Creator-Prompteiro Extension & Open source Contributor',
-        image: '/images/portfolio/alpha_tunnel.png',
+        image: '',
         alt: 'Prompteiro VSCode Extension',
         pills: ['TypeScript', 'Node.js', 'Git', 'GitHub', 'Local LLMs', 'VS Code extension API', 'ollama', 'Microsoft Visual Studio Code'],
         bullets: [
@@ -168,7 +185,7 @@ export const portfolioSections: PortfolioSection[] = [
       },
       {
         title: 'Web Development Lead & Developer',
-        image: '/images/portfolio/isometric_rush.png',
+        image: '',
         alt: 'Ignitia Web Lead',
         pills: ['TypeScript', 'React.js'],
         bullets: [
@@ -181,7 +198,7 @@ export const portfolioSections: PortfolioSection[] = [
       },
       {
         title: 'Solution Challenge 2026',
-        image: '/images/portfolio/snake_360.png',
+        image: '',
         alt: 'Google GDE',
         pills: ['JavaScript', 'Python'],
         bullets: [
@@ -193,7 +210,7 @@ export const portfolioSections: PortfolioSection[] = [
       },
       {
         title: 'Open Source Contributor',
-        image: '/images/portfolio/one_minute_jam_2021.png',
+        image: '',
         alt: 'Google Summer of Code',
         pills: ['TypeScript', 'Node.js', 'Git', 'GitHub'],
         bullets: [

@@ -35,7 +35,9 @@ export class Ghost extends Entity {
     this.buttonMode = true;
 
     this.on('pointertap', () => {
-      app.router.navigate(this.entityState.route);
+      if (this.x !== 0 && this.y !== 0) {
+        app.router.navigate(this.entityState.route);
+      }
     });
 
     this.createObject();

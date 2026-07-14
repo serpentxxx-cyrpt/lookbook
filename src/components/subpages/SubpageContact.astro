@@ -1,7 +1,10 @@
+---
+import { getAbsoluteUrl } from '../../shared/utils/routing';
+---
 <div data-route="/contact" class="subpage subpage--contact">
   <article class="subpage__wrapper">
     <div class="subpage__header">
-      <a href="/" class="subpage__close-button">X</a>
+      <a href={getAbsoluteUrl('/')} class="subpage__close-button">X</a>
       <h2 class="subpage__title">Contact</h2>
     </div>
     <div class="subpage__content-wrapper">
@@ -22,6 +25,9 @@
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/tridibesh-sen/" target="_blank">LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://github.com/serpentxxx-cyrpt" target="_blank">GitHub</a>
           </li>
         </ul>
       </div>

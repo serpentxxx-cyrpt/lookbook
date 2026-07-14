@@ -4,7 +4,6 @@ import type { Cell } from './shared/state/grid/types';
 export function generateMaze(
   cols: number,
   rows: number,
-  cellSize: number,
   config: any
 ): Cell[] {
   const cells: Cell[] = Array.from({ length: cols * rows }, () => ({
@@ -86,7 +85,7 @@ export function generateMaze(
             type: CellType.wall,
             wallType: (x === houseXStart) ? WallType.cornerTopLeft : (x === houseXEnd) ? WallType.cornerTopRight : WallType.horizontal,
             thickness: config.wallThickness,
-            color: config.wallColor,
+            color: 0xff55ff,
           };
         }
       } else if (y === houseYEnd) {
@@ -95,7 +94,7 @@ export function generateMaze(
           type: CellType.wall,
           wallType: (x === houseXStart) ? WallType.cornerBottomLeft : (x === houseXEnd) ? WallType.cornerBottomRight : WallType.horizontal,
           thickness: config.wallThickness,
-          color: config.wallColor,
+          color: 0xff55ff,
         };
       } else if (x === houseXStart || x === houseXEnd) {
         // Side edges
@@ -103,7 +102,7 @@ export function generateMaze(
           type: CellType.wall,
           wallType: WallType.vertical,
           thickness: config.wallThickness,
-          color: config.wallColor,
+          color: 0xff55ff,
         };
       } else {
         // Inside ghost house (navigable but no dots)
@@ -114,6 +113,10 @@ export function generateMaze(
 
   // Helper to safely set a rectangular wall island in the cells grid
   const addSymmetricIsland = (x1: number, x2: number, y1: number, y2: number) => {
+    // Sequence of vibrant arcade neon colors (numeric hex values)
+    const colors = [0xff4444, 0x00ffde, 0xffcc44, 0x00ff88, 0xd888ff, 0xffff55];
+    const color = colors[(y1 + x1) % colors.length];
+
     const drawIsland = (lx1: number, lx2: number) => {
       for (let y = y1; y <= y2; y++) {
         for (let x = lx1; x <= lx2; x++) {
@@ -123,21 +126,21 @@ export function generateMaze(
               type: CellType.wall,
               wallType: (x === lx1) ? WallType.cornerTopLeft : (x === lx2) ? WallType.cornerTopRight : WallType.horizontal,
               thickness: config.wallThickness,
-              color: config.wallColor,
+              color: color,
             };
           } else if (y === y2) {
             cells[idx] = {
               type: CellType.wall,
               wallType: (x === lx1) ? WallType.cornerBottomLeft : (x === lx2) ? WallType.cornerBottomRight : WallType.horizontal,
               thickness: config.wallThickness,
-              color: config.wallColor,
+              color: color,
             };
           } else if (x === lx1 || x === lx2) {
             cells[idx] = {
               type: CellType.wall,
               wallType: WallType.vertical,
               thickness: config.wallThickness,
-              color: config.wallColor,
+              color: color,
             };
           } else {
             cells[idx] = { type: CellType.empty, dot: DotType.never, taken: false };

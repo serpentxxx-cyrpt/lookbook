@@ -137,4 +137,36 @@
     border-radius: 4px;
     text-shadow: 1px 1px 0px #000;
   }
+
+  .cv-download-container {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .cv-download-btn {
+    display: inline-block;
+    background: #000;
+    border: 2px solid #ffff00;
+    color: #ffff00;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.65rem;
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 3px 3px 0 #999900;
+    transition: transform 60ms, box-shadow 60ms, border-color 60ms, color 60ms;
+    line-height: 1.4;
+
+    &:hover {
+      background: #111;
+      color: #fff;
+      border-color: #00ffde;
+      box-shadow: 3px 3px 0 rgba(0, 255, 222, 0.4);
+    }
+
+    &:active {
+      transform: translate(1px, 1px);
+      box-shadow: 2px 2px 0 #999900;
+    }
+  }
 }

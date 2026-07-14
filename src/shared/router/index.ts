@@ -1,3 +1,5 @@
+import { getAbsoluteUrl } from '../utils/routing';
+
 export type AppRouter = {
   root: string;
   navigate: (path: string) => void;
@@ -13,11 +15,11 @@ export type AppRouter = {
  */
 export function createRouter(): AppRouter {
   let navigateImpl = (path: string): void => {
-    window.location.assign(path);
+    window.location.assign(getAbsoluteUrl(path));
   };
 
   return {
-    root: '/',
+    root: getAbsoluteUrl('/'),
     navigate: (path: string) => navigateImpl(path),
     setNavigate: (impl: (path: string) => void) => {
       navigateImpl = impl;
