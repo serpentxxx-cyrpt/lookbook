@@ -9,6 +9,7 @@
     "check": "astro check"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "@vue/reactivity": "3.2.33",
     "pixi.js": "6.3.0",
     "swiped-events": "^1.2.0"

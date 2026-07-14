@@ -97,6 +97,11 @@ p {
   & * {
     pointer-events: auto;
   }
+
+  /* Mobile: no horizontal padding so canvas fills edge-to-edge */
+  @media (max-width: 767px) {
+    padding: 6px 0 0;
+  }
 }
 
 @import 'utils/vars';

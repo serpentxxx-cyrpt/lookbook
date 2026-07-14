@@ -36,15 +36,35 @@
   margin-bottom: 2rem;
   text-shadow: 3px 3px 0 #000000;
 
+  /* Each letter span gets the rainbow animation */
   span {
     display: inline-block;
     animation: rainbow 2s infinite linear;
   }
 
-  // Stagger delays for each letter (up to 30 characters)
+  /* Stagger delays for letter spans (up to 30) */
   @for $i from 1 through 30 {
     span:nth-child(#{$i}) {
       animation-delay: #{$i * 80}ms;
+    }
+  }
+
+  /* ── Mobile: 3-line layout ── */
+  @media (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    font-size: clamp(1.1rem, 8vw, 1.8rem);
+    line-height: 2.2;
+
+    .preloader-sep {
+      display: none; /* hide " - " separators between lines */
+    }
+
+    .preloader-line {
+      display: flex;
+      justify-content: center;
+      width: 100%;
     }
   }
 }

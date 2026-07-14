@@ -98,6 +98,11 @@ function syncSize(): void {
       colStates[i].topY = colStates[i].targetY;
     }
   });
+  // Center ghost when canvas first becomes available
+  if (bX <= 30 && w > 60) {
+    bX = w / 2;
+    targetX = w / 2;
+  }
 }
 
 // ── Tile rise / fall cycles ───────────────────────────────────────────────────
@@ -450,8 +455,9 @@ function init(): void {
   });
 
   // ── Start loop ────────────────────────────────────────────────────
-  bX = 30;
-  targetX = 30;
+  // Start centered; syncSize will also center once canvas width is known
+  bX = canvasW > 60 ? canvasW / 2 : window.innerWidth / 2;
+  targetX = bX;
   bY = TRACK_Y;
   requestAnimationFrame(loop);
 }

@@ -71,6 +71,14 @@
       }
     }
 
+    /* Mobile: tuck into top-left beside the heading */
+    @media (max-width: 767px) {
+      top: 6px;
+      left: 6px;
+      padding: 6px 10px;
+      font-size: 0.9rem;
+    }
+
     &__collapse {
       display: none;
     }
