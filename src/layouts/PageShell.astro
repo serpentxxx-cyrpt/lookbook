@@ -1,5 +1,6 @@
 ---
 import PageBody from '../components/PageBody.astro';
+import SpeedInsights from '@vercel/speed-insights/astro';
 import '~/styles/style.scss';
 
 const { title = 'TRIDIBESH SEN PORTFOLIO' } = Astro.props;
@@ -25,5 +26,5 @@ const { title = 'TRIDIBESH SEN PORTFOLIO' } = Astro.props;
   <PageBody>
     <slot />
   </PageBody>
-
+  <SpeedInsights />
 </html>
